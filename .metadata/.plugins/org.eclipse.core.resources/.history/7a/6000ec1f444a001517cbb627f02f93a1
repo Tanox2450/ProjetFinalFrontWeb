@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#page {
+/* 	width: 1200px; */
+	height: 100%;
+	background-color: #f0f0f0;
+	margin: auto;
+}
+
+#divWaterfall {
+/* 	width: 1200px; */
+}
+
+header {
+/* 	width: 1200px; */
+}

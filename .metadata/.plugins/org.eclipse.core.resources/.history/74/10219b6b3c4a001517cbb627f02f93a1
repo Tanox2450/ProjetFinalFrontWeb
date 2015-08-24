@@ -1,0 +1,22 @@
+package org.bovoyage.services.actions;
+
+import org.bovoyage.services.Action;
+
+public class ActionFactory {
+
+	public static Action getAction(String cde) {
+		Action action = null;
+		if(cde = null || cde.isEmpty())
+			cde = "home";
+		switch (cde) {
+		case "home":
+			action = new ActionHome();
+			break;
+
+		default:
+			break;
+		}
+		return action;
+	}
+
+}

@@ -1,0 +1,97 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet"
+	href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.blue-light_blue.min.css" />
+<script
+	src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="css/boVoyage.css">
+<title>BoVoyage</title>
+</head>
+
+<body>
+
+	<!-- 	<div class="demo-layout-transparent mdl-layout mdl-js-layout"> -->
+	<!-- 	<div id="page"> -->
+	<!-- 		<div id="divWaterfall" -->
+	<!-- 			class="demo-layout-waterfall mdl-layout mdl-js-layout"> -->
+	<!-- 			<header class="mdl-layout__header mdl-layout__header--waterfall"> -->
+	<!-- 			Top row, always visible -->
+	<!-- 			<div class="mdl-layout__header-row"> -->
+	<!-- 								Title  -->
+	<!-- 				<span class="mdl-layout-title"><a href="FrontController">Bovoyage</a></span> -->
+	<!-- 				<div class="mdl-layout-spacer"></div> -->
+	<!-- 				<div -->
+	<!-- 					class="mdl-textfield mdl-js-textfield mdl-textfield--expandable -->
+	<!-- 			                 mdl-textfield--floating-label mdl-textfield--align-right"> -->
+	<!-- 					<label class="mdl-button mdl-js-button mdl-button--icon" -->
+	<!-- 						for="waterfall-exp"> <i class="material-icons">search</i> -->
+	<!-- 					</label> -->
+	<!-- 					<div class="mdl-textfield__expandable-holder"> -->
+	<!-- 						<input class="mdl-textfield__input" type="text" name="sample" -->
+	<!-- 							id="waterfall-exp" /> -->
+	<!-- 					</div> -->
+	<!-- 				</div> -->
+	<!-- 			</div> -->
+	<!-- 			</header> -->
+	<!-- 			<div class="mdl-layout__drawer"> -->
+	<!-- 				<span class="mdl-layout-title">Title</span> -->
+	<!-- 				<nav class="mdl-navigation"> <a class="mdl-navigation__link" -->
+	<!-- 					href="FrontController">Accueil</a> <a class="mdl-navigation__link" -->
+	<!-- 					href="FrontController?cde=voyages">Voyages</a> <a -->
+	<!-- 					class="mdl-navigation__link" href="FrontController?cde=compte">Compte</a> -->
+	<!-- 								<a class="mdl-navigation__link" href="">Link</a> <a 					class="mdl-navigation__link" href="">Link</a> -->
+	<!-- 				</nav> -->
+	<!-- 			</div> -->
+	<!-- 			<main class="mdl-layout__content"> -->
+	<!-- 			<div class="page-content"> -->
+	<!-- 				Your content goes here -->
+	<!-- 			</div> -->
+	<!-- 			</main> -->
+	<!-- 		</div> -->
+	<!-- 	</div> -->
+	<!-- 	</div> -->
+
+	<div id="page">
+		<!-- Always shows a header, even in smaller screens. -->
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			<header class="mdl-layout__header">
+			<div class="mdl-layout__header-row">
+				<!-- Title -->
+				<span class="mdl-layout-title">BoVoyages</span>
+				<!-- Add spacer, to align navigation to the right -->
+				<!-- 				<div class="mdl-layout-spacer"></div> -->
+				<!-- Navigation. We hide it in small screens. -->
+				<nav class="mdl-navigation mdl-layout--large-screen-only"> <a
+					class="mdl-navigation__link" href="FrontController">Accueil</a> <a
+					class="mdl-navigation__link" href="FrontController?cde=voyages">Voyages</a>
+				<a class="mdl-navigation__link" href="FrontController?cde=compte">Compte</a>
+				<div class="mdl-layout-spacer"></div>
+				<div
+					class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+			                 mdl-textfield--floating-label mdl-textfield--align-right">
+					<label class="mdl-button mdl-js-button mdl-button--icon"
+						for="waterfall-exp"> <i class="material-icons">S</i>
+					</label>
+					<div class="mdl-textfield__expandable-holder">
+						<input class="mdl-textfield__input" type="text" name="sample"
+							id="waterfall-exp" />
+					</div>
+				</div>
+				</nav>
+			</div>
+			</header>
+			<main class="mdl-layout__content">
+			<div class="page-content">
+				<jsp:include page="fragments/test.jsp"></jsp:include>
+			</div>
+			</main>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+package org.bovoyage.services.actions;
+
+public class ActionHome implements Action {
+
+}

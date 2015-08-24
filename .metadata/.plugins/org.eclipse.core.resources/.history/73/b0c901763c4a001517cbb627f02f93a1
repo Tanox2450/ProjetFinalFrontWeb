@@ -1,0 +1,5 @@
+package org.bovoyage.services.actions;
+
+public interface Action {
+
+}
