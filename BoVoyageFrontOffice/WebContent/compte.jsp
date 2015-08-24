@@ -11,6 +11,7 @@
 <link rel="stylesheet"
 	href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="css/boVoyage.css">
+<link rel="stylesheet" href="css/formulaire.css">
 <title>Compte</title>
 </head>
 <body>
@@ -31,7 +32,8 @@
 			</header>
 			<main class="mdl-layout__content">
 			<div class="page-content">
-				<jsp:include page="fragments/test.jsp"></jsp:include>
+				<jsp:include page="fragments/formulaire.jsp"></jsp:include>
+				<jsp:include page="fragments/formulaireConnexion.jsp"></jsp:include>
 				<jsp:include page="fragments/footer.jsp"></jsp:include>
 			</div>
 			</main>
