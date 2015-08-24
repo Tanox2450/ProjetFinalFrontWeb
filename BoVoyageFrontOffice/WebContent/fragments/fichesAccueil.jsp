@@ -15,8 +15,8 @@
 
 .demo-card-wide>.mdl-card__title {
 	color: #fff;
-	height: 176px;
-	background: url('images/canada_1.jpg') center/cover;
+	height: 200px;
+	background: url('images/canadat.gif') center/cover;
 }
 
 .demo-card-wide>.mdl-card__menu {
