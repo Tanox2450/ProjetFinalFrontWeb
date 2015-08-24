@@ -5,13 +5,12 @@
 /* 	margin: 0; */
 /* 	padding: 0; */
 /* } */
-
 body, p, legend, label, input {
 	font: normal 8pt verdana, helvetica, sans-serif;
 }
 
 #page {
-/* 		width: 1200px; */
+	/* 		width: 1200px; */
 	height: 100%;
 	background-color: #c5c5c5;
 	margin: auto;
@@ -34,4 +33,15 @@ header {
 
 a {
 	text-decoration: none;
+}
+
+main{
+/* 	position: relative; */
+}
+
+.page-content {
+	background-image: url("../ressources/seaside.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+/* 	position: fixed; */
 }

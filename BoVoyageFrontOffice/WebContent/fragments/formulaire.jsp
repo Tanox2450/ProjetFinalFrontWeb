@@ -9,13 +9,19 @@
 <body>
 	<form method="post" action="FrontController?cde=inscription">
 		<br />
-		<fieldset>
+		<fieldset class="mdl-shadow--4dp">
 			<legend>Identification :</legend>
+			<div
+				class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+				<input class="mdl-textfield__input" type="text" name="name"
+					id="name" /> <label class="mdl-textfield__label" for="name">Nom</label>
+			</div>
 			<div
 				class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
 				<input class="mdl-textfield__input" type="text" name="email"
 					id="email" /> <label class="mdl-textfield__label" for="email">Email</label>
 			</div>
+			<br />
 			<div
 				class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
 				<input class="mdl-textfield__input" type="password" name="password"
@@ -24,18 +30,13 @@
 			</div>
 			<div
 				class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-				<input class="mdl-textfield__input" type="password" name="passwordConf"
-					id="passwordConf" /> <label class="mdl-textfield__label"
-					for="passwordConf">Confirmation</label>
-			</div>
-			<div
-				class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-				<input class="mdl-textfield__input" type="text" name="name"
-					id="name" /> <label class="mdl-textfield__label" for="name">Nom</label>
+				<input class="mdl-textfield__input" type="password"
+					name="passwordConf" id="passwordConf" /> <label
+					class="mdl-textfield__label" for="passwordConf">Confirmation</label>
 			</div>
 		</fieldset>
 		<br />
-		<fieldset>
+		<fieldset class="mdl-shadow--4dp">
 			<legend>Adresse :</legend>
 			<div
 				class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -64,7 +65,7 @@
 			<br />
 		</fieldset>
 		<br />
-		<fieldset>
+		<fieldset class="mdl-shadow--4dp">
 			<legend>Adresse de facturation :</legend>
 			<div
 				class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">

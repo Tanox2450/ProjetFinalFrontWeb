@@ -31,8 +31,8 @@
 			</header>
 			<main class="mdl-layout__content">
 			<div class="page-content">
-				<jsp:include page="fragments/test.jsp"></jsp:include>
-				<jsp:include page="fragments/footer.jsp"></jsp:include>
+					<jsp:include page="fragments/test.jsp"></jsp:include>
+					<jsp:include page="fragments/footer.jsp"></jsp:include>
 			</div>
 			</main>
 		</div>
