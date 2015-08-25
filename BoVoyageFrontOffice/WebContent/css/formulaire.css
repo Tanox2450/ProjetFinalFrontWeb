@@ -44,9 +44,18 @@ legend {
 	opacity: 0.8;
 	border-radius: 5px;
 	padding: 5px;
-	border-radius: 5px;
 }
 
 .mdl-textfield__label {
 	color: #585858;
+}
+
+#validate {
+	margin: auto;
+	border-radius: 5px;
+}
+
+#buttonField {
+	width: 4%;
+	padding: 0px;
 }

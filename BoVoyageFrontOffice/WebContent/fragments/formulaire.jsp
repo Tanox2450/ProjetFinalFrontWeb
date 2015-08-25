@@ -96,6 +96,11 @@
 					for="countryFact">Pays</label>
 			</div>
 		</fieldset>
+		<br />
+		<fieldset id="buttonField">
+			<input type="submit" id="validate"
+				class="mdl-button mdl-js-button mdl-button--primary" value="Valider" />
+		</fieldset>
 	</form>
 </body>
 </html>
